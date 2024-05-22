@@ -6,9 +6,8 @@ public class Main {
         System.out.println("Ingresa el nùmero màximo para el programa.");
         int max = in.nextInt();
 
-        ConsoleBasesFizzBuzz tilin = new ConsoleBasesFizzBuzz();
-
-        tilin.print(1, max);
-        //ConsoleBasesFizzBuzz.print(1, max);
+        ConsoleBasesFizzBuzz fizzBuzz = new ConsoleBasesFizzBuzz();
+        fizzBuzz.print(1, max);
+        in.close();
     }
 }
